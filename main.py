@@ -95,7 +95,7 @@ def std_cols(df):
 def school_name_from_filename(fname):
     """파일명 앞부분에서 학교명 추출"""
     if not fname:
-        return "우리 학교"
+        return "송도고"
     base = os.path.splitext(fname)[0]
     m = re.match(r"^(.+?)(?:_|\d+[_\s].*)?$", base)
     return m.group(1) if m else base
