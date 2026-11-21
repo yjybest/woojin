@@ -150,7 +150,7 @@ def id_plain(v):
     return int(v) if pd.notna(v) and float(v) == int(v) else v
 
 # ── 페이지 설정 ────────────────────────────────────────────────
-st.set_page_config(page_title="성범제자들의 극지식물 생육 결과", layout="wide")
+st.set_page_config(page_title="성범썜 사랑해요. 송도고 극지; 생육 결과", layout="wide")
 st.title("🌱 송도고 극지; 생육 결과")
 
 # ── 사이드바 ───────────────────────────────────────────────────
